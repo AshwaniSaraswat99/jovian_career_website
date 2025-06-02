@@ -32,7 +32,7 @@ JOBS = [
 def hello_world():
     print("hello")
     
-    return render_template('home.html',jobs=JOBS,company_name="Jovian")
+    return render_template('home.html',jobs=JOBS,company_name="Appo ki company")
 
 @app.route('/api/jobs')
 def list_jobs():
